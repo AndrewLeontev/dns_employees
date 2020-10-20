@@ -1,2 +1,3 @@
 dns_employees/logs/*
 .vs
+dns_employees/bin/*
