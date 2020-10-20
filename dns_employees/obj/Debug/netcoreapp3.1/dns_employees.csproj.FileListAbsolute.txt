@@ -220,7 +220,6 @@ C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.TagHelpers.input.cache
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.TagHelpers.output.cache
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.RazorCoreGenerate.cache
-C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\Razor\Views\Employee\_form.cshtml.g.cs
@@ -239,3 +238,4 @@ C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.dll
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.pdb
 C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\dns_employees.genruntimeconfig.cache
+C:\Users\LWXC\dns_employees\dns_employees\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs

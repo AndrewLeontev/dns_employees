@@ -10,13 +10,14 @@ namespace dns_employees.Models
     {
         public int id { get; set; }
         [Required]
-        public string Name { get; set; } = "";
+        public string Name { get; set; }
         [Required]
-        public string Department { get; set; } = "";
+        public string Department { get; set; }
         [Required]
-        public string Title { get; set; } = "";
+        public string Title { get; set; }
 
         public Employee Manager { get; set; }
+        [Display(Name = "Manager")]
         public int? Manager_id { get; set; }
         [Required]
         public DateTime Hire_date { get; set; } = DateTime.Now;

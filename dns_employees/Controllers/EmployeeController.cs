@@ -57,6 +57,7 @@ namespace dns_employees.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult AddOrEdit(int id, [Bind("id,Name,Department,Manager_id,Title,Hire_date")] Employee employee)
         {
+            ViewBag.EmployeesList = new SelectList(db.GetManagerOptions(default(int)), "id", "Name");
             if (ModelState.IsValid)
             {
                 //Insert
