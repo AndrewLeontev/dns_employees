@@ -799,20 +799,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LeontevAS\\.nuget\\packages\\": {}
+    "C:\\Users\\LWXC\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MSSQL\\dns_employees\\dns_employees\\dns_employees\\dns_employees.csproj",
+      "projectUniqueName": "C:\\Users\\LWXC\\dns_employees\\dns_employees\\dns_employees.csproj",
       "projectName": "dns_employees",
-      "projectPath": "D:\\MSSQL\\dns_employees\\dns_employees\\dns_employees\\dns_employees.csproj",
-      "packagesPath": "C:\\Users\\LeontevAS\\.nuget\\packages\\",
-      "outputPath": "D:\\MSSQL\\dns_employees\\dns_employees\\dns_employees\\obj\\",
+      "projectPath": "C:\\Users\\LWXC\\dns_employees\\dns_employees\\dns_employees.csproj",
+      "packagesPath": "C:\\Users\\LWXC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LWXC\\dns_employees\\dns_employees\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\LeontevAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\LWXC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -870,7 +875,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

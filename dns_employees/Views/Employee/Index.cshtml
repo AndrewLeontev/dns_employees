@@ -1,6 +1,7 @@
 ﻿@model IEnumerable<dns_employees.Models.Employee>
 
 @{ ViewData["Title"] = "Index"; }
+<script src="~/js/paging.js"></script>
 
 <div id="view-all">
     @await Html.PartialAsync("_ViewAll", Model)
@@ -9,3 +10,9 @@
 @section Scripts{
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<script>
+    $(document.body).ready(function () {
+        $('#tabel_data').paging({ limit: 2 });
+    })
+</script>

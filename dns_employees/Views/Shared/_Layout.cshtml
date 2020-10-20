@@ -6,7 +6,14 @@
     <title>@ViewData["Title"] - dns_employees</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/jquery-ui/jquery-ui.css" />
     <link href="@Url.Content("~/Content/fontawesome-free-5.15.1/css/all.css")" rel="stylesheet" />
+    <link href="~/css/paging.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-ui/jquery-ui.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/paging.js"></script>
 </head>
 <body>
     <header>
@@ -56,8 +63,6 @@
             &copy; 2020 - dns_employees
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 </body>
